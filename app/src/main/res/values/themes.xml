@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material">
+        <item name="android:colorAccent">#F59E0B</item>
+        <item name="android:colorPrimary">#121A2E</item>
+        <item name="android:colorPrimaryDark">#0B1020</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">#0B1020</item>
+        <item name="android:navigationBarColor">#0B1020</item>
+    </style>
+    <style name="MarkTheme" parent="android:Theme.Material.Dialog.NoActionBar">
+        <item name="android:colorAccent">#F59E0B</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TExporT</string>
+    <string name="mark_action">Mark with TExporT</string>
+    <string name="share_action">TExporT</string>
+</resources>

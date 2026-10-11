@@ -1,0 +1,82 @@
+{
+  "format": "texport.collection",
+  "version": 1,
+  "app": "fixture",
+  "exportedAt": "2026-10-11T10:02:33.612Z",
+  "collection": {
+    "name": "Release pipeline",
+    "created": "2026-10-07T06:00:00Z",
+    "convos": [
+      {
+        "key": "https://claude.ai/chat/1",
+        "url": "https://claude.ai/chat/1",
+        "title": "Gate plan",
+        "site": "Claude",
+        "capturedAt": "2026-10-07T06:00:00.000Z",
+        "messages": [
+          {
+            "role": "user",
+            "text": "Lay out the gates."
+          },
+          {
+            "role": "assistant",
+            "text": "Gate 1 runs build.py.\nGate 2 checks output.json has 3 entries.\nDone."
+          },
+          {
+            "role": "user",
+            "text": "Thanks."
+          }
+        ],
+        "markers": [
+          {
+            "id": "a",
+            "idx": 1,
+            "excerpt": "Gate 2 checks   output.json has 3 entries.",
+            "note": "exit condition",
+            "scope": "selection"
+          },
+          {
+            "id": "b",
+            "idx": 0,
+            "excerpt": "",
+            "note": "",
+            "scope": "message"
+          },
+          {
+            "id": "c",
+            "idx": 9,
+            "excerpt": "lost",
+            "note": "",
+            "scope": "selection"
+          }
+        ]
+      },
+      {
+        "key": "android:com.anthropic.claude",
+        "url": "",
+        "title": "From Claude",
+        "site": "Android · Claude",
+        "capturedAt": "2026-10-11T09:00:00Z",
+        "messages": [
+          {
+            "role": "excerpt",
+            "text": "Gate 3 publishes only on tag v1.2.0."
+          },
+          {
+            "role": "context",
+            "text": "Some context."
+          }
+        ],
+        "markers": [
+          {
+            "id": "d",
+            "idx": 0,
+            "excerpt": "",
+            "note": "release rule",
+            "scope": "selection"
+          }
+        ]
+      }
+    ]
+  }
+}
