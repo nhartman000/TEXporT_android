@@ -95,7 +95,7 @@ gradle testDebugUnitTest   # export format = browser extension (fixtures generat
 gradle assembleDebug       # → app/build/outputs/apk/debug/app-debug.apk
 ```
 
-On every push, GitHub Actions runs the tests, builds the APK and uploads it as an artifact. Pushing a tag `vX.Y.Z` also attaches the APK to a GitHub release.
+On every push, GitHub Actions runs the tests, builds the APK and uploads it as an artifact. Each push to main also publishes the APK as the GitHub release for the current `versionName` (creating it on first build of a new version).
 
 To regenerate the test fixtures after a deliberate format change, run the Node snippet in `docs/FIXTURES.md` against the extension repo.
 
